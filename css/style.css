@@ -32,7 +32,7 @@ header{
 nav { 
     background-color: #d2e3f5;
     color: #000;
-    /*box-shadow: 0 4px 2px rgba(0,0,0,.2);*/
+    / *box-shadow: 0 4px 2px rgba(0,0,0,.2);* /
     padding: .5em;
     margin-bottom: 1em;
     text-align: center;
@@ -40,6 +40,7 @@ nav {
     top: 0;
     z-index: 5;
 }
+
 .navM {    
     display: flex;
     align-items: center;
@@ -101,6 +102,15 @@ section {
     gap: 2em;
     align-items: center;
     justify-content: center;
+}
+.secOth {
+    border-radius: 1em;
+    border: solid 1px #999;
+    padding: .5em 0.5em;
+    display:block;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;    
 }
 article {
     width: 50%;

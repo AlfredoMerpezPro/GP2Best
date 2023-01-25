@@ -20,7 +20,7 @@ html {
  body {
      font: 300 1.7rem/1.5 'Montserrat', sans-serif;
 } 
-
+header, footer, nav {font-family: Atari, PT Monospace, monospace; }
 h1 {
 
     font: 4rem 'DM Sans', sans-serif;
@@ -52,6 +52,8 @@ li {
 
 form {
     font: 2rem 'Courier Prime', monospace;
+    border-radius: 1em;
+    border: solid 1px #999;
 }
 
 
@@ -60,8 +62,8 @@ form {
 /*-------- body ------------*/
 
 body {
-    background-color: lightgray;
-    margin: .5em 1em;
+    /*background-color: lightgray;
+    margin: .5em 1em;*/
 }
 
 hr {
@@ -218,3 +220,11 @@ label.newsletter {
     } 
 
 } 
+footer {
+    background-color: #135d8a;
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 10px;
+}
